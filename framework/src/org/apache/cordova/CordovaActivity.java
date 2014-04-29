@@ -270,7 +270,7 @@ public class CordovaActivity extends Activity implements CordovaInterface {
      * @param webView the default constructed web view object
      */
     protected CordovaChromeClient makeChromeClient(CordovaWebView webView) {
-        return webView.makeChromeClient();
+        return webView.makeWebChromeClient();
     }
 
     /**
